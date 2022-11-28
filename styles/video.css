@@ -1,0 +1,171 @@
+.youtube-video-flex {
+  display: flex;
+}
+
+.youtube-video-container {
+  width: 650px;
+  height: 400px;
+  margin-bottom: 30px;
+}
+
+.youtube-video {
+  width: 100%;
+  height: 100%;
+}
+
+.video-title {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.channel-info-container {
+  display: flex;
+  align-items: cneter;
+  margin-bottom: 20px;
+  /* width: 300px; */
+}
+
+.channel-pic {
+  height: 45px; 
+  border-radius: 25px;
+  margin-right: 15px;
+
+}
+
+.channel-info {
+  margin-right: 30px;
+}
+
+.channel-name {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.channel-stats {
+  font-size: 14px;
+  color: rgb(107, 107, 107);
+}
+
+.subscrbe-button {
+  background-color: black;
+  color: white;
+  width: 110px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+.channel-like-share-row {
+  display: flex;
+  align-items: center;
+}
+
+.like-button {
+  display: flex;
+  width: 80px;
+  height: 40px;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
+  background-color: rgb(235, 235, 235);
+  border: 1px solid lightgray;
+}
+
+.like-icon {
+  height: 23px;
+}
+
+
+.dislike-button {
+  width: 50px;
+  height: 40px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border: 1px solid rgb(235, 235, 235);
+  background-color: rgb(235, 235, 235);
+}
+
+.dislike-icon {
+  height: 23px;
+} 
+
+.share-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  margin-right: 10px;
+  background-color: rgb(235, 235, 235);
+}
+
+.share-button div {
+  font-size: 16px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+}
+
+.share-icon {
+  height: 25px;
+}
+
+.download-button {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: space-around;
+  width: 120px;
+  border-radius: 30px;
+  border: none;
+  margin-right: 10px;
+}
+
+.download-button div {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.download-icon {
+  height: 20px;
+}
+
+.clip-button {
+  display: flex;
+  width: 80px;
+  height: 40px;
+  border-radius: 18px;
+  border: none;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(235, 235, 235);
+  margin-right: 10px;
+}
+
+.clip-button div {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.dot-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(235, 235, 235);
+}
+
+/* .video-description {
+  background-color: lightgray;
+  width: 650px;
+  height: 100px;
+}
+ */

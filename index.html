@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube-video-page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/header.css">
+  <link rel="stylesheet" href="/styles/sidebar.css">
+  <link rel="stylesheet" href="/styles/general.css">
+  <link rel="stylesheet" href="/styles/video.css">
+</head>
+<body>
+  <header class="header">
+    <section class="left-sec">
+      <button class="humbergur-icon-button">
+        <img class="humburger-icon" src="/Images/header/hamburger-menu.svg" alt="">
+      </button>
+      <img class="youtube-logo-icon" src="/Images/header/youtube-logo.svg" alt="">
+    </section>
+    <section class="middle-sec">
+      <input class="search-bar" type="text" placeholder="Search">
+      <button class="search-button">
+        <img class="search-button-icon" src="/Images/header/search.svg" alt="">
+        <div class="tooltip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-button-icon" src="/Images/header/voice-search-icon.svg" alt="">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </section>
+    <section class="right-sec">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="/Images/header/upload.svg" alt="">
+        <div class="tooltip">Create</div>
+      </div>
+      <div class="notification-icon-container">
+        <img class="notification-icon" src="/Images/header/notifications.svg" alt="">
+        <div class="tooltip">Notifications</div>
+        <div class="notification-count">9+</div>
+      </div>
+      <img class="current-user-pic" src="/Images/header/unnamed (1).jpg" alt="">
+    </section>
+  </header>
+  <main>
+    <div class="youtube-video-flex">
+      <div class="main-video-section">
+        <section class="youtube-video-container">
+          <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section class="video-title-container">
+          <div class="video-title ">Contributing to Open Source Part I&colon; The Easy Way</div>
+        </section>
+        <section class="channel-info-container">
+          <img class="channel-pic " src="/Images/header/channel-pic.jpg" alt="">
+          <div class="channel-info">
+            <p class="channel-name">The Odin project</p>
+            <p class="channel-stats">1.11k subscribers</p>
+          </div>
+          <button class="subscrbe-button">Subscribe</button>
+        </section>
+        <section class="channel-like-share-row">
+          <button class="like-button">
+            <img class="like-icon" src="/Images/header/like.png" alt="">
+            <div class="like-count">490</div>
+          </button>
+          <button class="dislike-button">
+            <img class="dislike-icon" src="/Images/header/dislike.png" alt="">
+          </button>
+          <button class="share-button">
+            <img class="share-icon" src="/Images/header/share.png" alt="">
+            <div>Share</div>
+          </button>
+          <button class="download-button">
+            <img class="download-icon" src="/Images/header/download.png" alt="">
+            <div>Download</div>
+          </button>
+          <button class="clip-button">
+            <img src="" alt="">
+            <div>Clip</div>
+          </button>
+          <button class="dot-button">
+            <img src="" alt="">
+          </button>
+        </section>
+        <!-- <section class="video-description">
+          <p>68K views  8 years ago</p>
+          <p>
+            How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, 
+            "forking a repo", or even touching Git outside of Github.  I'll also  
+            …<strong>Show more</strong></div>
+        </section> --> -->
+      </div>
+      <aside class="side-sec">
+        <nav class="navigation">
+          <button class="all">All</button>
+          <button class="cp-program">Computer program</button>
+          <button class="related">Related</button>
+          <button class="watched">Watched</button>
+        </nav>
+        <section class="related-videos">
+          <div class="image-container">
+            <img class="image" src="/Images/thumbnail1.webp" alt="" class="thumbnail">
+          </div>
+          <div class="related-video-info">
+            <p class="related-video-title">Git and GitHub - 0 Experience to Professional in 1 Tutorial (Part...</p>
+            <p class="related-video-channel-name">SuperSimpleDev</p>
+            <p class="related-video-channel-stats">47k views &#183; 1 year ago</p>
+          </div>
+        </section>
+        <section class="related-videos">
+          <div class="image-container">
+            <img class="image" src="/Images/thumbnail1.webp" alt="" class="thumbnail">
+          </div>
+          <div class="related-video-info">
+            <p class="related-video-title">Git and GitHub - 0 Experience to Professional in 1 Tutorial (Part...</p>
+            <p class="related-video-channel-name">SuperSimpleDev</p>
+            <p class="related-video-channel-stats">47k views &#183; 1 year ago</p>
+          </div>
+        </section>
+      </aside>
+    </div>
+    
+  </main>
+  
+</body>
+</html>

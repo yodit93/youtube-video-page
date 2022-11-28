@@ -1,0 +1,164 @@
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 200;
+}
+
+.left-sec {
+  display: flex;
+  align-items: center;
+}
+
+.humbergur-icon-button {
+  border: none;
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.humburger-icon {
+  height: 25px;
+
+}
+
+.youtube-logo-icon {
+  height: 24px;
+  cursor: pointer;
+}
+
+.middle-sec {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  max-width: 720px;
+}
+
+.search-bar {
+  flex: 1;
+  padding-left: 10px;
+  height: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 2px solid rgb(197, 194, 194);
+  box-shadow: inset 0px 1px 1px rgb(0, 0, 0, 0.15);
+  font-size: 18px;
+  width: 0;
+}
+
+.search-bar::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 18px;
+}
+
+.search-button {
+  width: 70px;
+  height: 46px;
+  border: 2px solid rgb(197, 194, 194);
+  border-bottom-right-radius: 35px;
+  border-top-right-radius: 35px;
+  background-color: rgb(243, 243, 243);
+  margin: -1px;
+  margin-right: 10px; 
+}
+
+.search-button, 
+.voice-search-button,
+.upload-icon-container,
+.notification-icon-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search-button .tooltip, 
+.voice-search-button .tooltip,
+.upload-icon-container .tooltip,
+.notification-icon-container .tooltip {
+  position: absolute;
+  bottom: -50px;
+  background-color: gray;
+  color: white;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 2px;
+  font-size: 14px;
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.search-button:hover .tooltip,
+.voice-search-button:hover .tooltip,
+.upload-icon-container:hover .tooltip,
+.notification-icon-container:hover .tooltip {
+  opacity: 1;
+}
+
+.search-button-icon {
+  height: 28px;
+}
+
+.voice-search-button {
+  height: 45px;
+  width: 45px;
+  background-color: rgb(248, 248, 248);
+  border: none;
+  border-radius: 23px;
+  cursor: pointer;
+}
+
+.voice-search-button-icon {
+  height: 28px;
+}
+
+.right-sec {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+  flex-shrink: 0;
+}
+
+.upload-icon {
+  height: 28px;
+}
+
+.notification-icon {
+  height: 28px;
+}
+
+.notification-count {
+  position: absolute;
+  background-color: rgb(206, 11, 11);
+  color: white;
+  font-size: 14px;
+  top: -2px;
+  right: -10px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 10px;
+
+}
+
+.current-user-pic {
+  height: 36px;
+  border-radius: 20px;
+}
+
+
+
+

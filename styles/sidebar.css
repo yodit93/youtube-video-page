@@ -1,0 +1,92 @@
+.side-sec {
+  width: 410px;
+  min-width: 300px;
+  margin-right: 180px;
+  margin-left: 30px;
+}
+
+.navigation {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.all {
+  background-color: black;
+  color: white;
+  height: 35px;
+  width: 45px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.cp-program {
+  background-color: rgb(227, 227, 227);
+  color: rgb(59, 59, 59);
+  height: 35px;
+  width: 160px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+}
+
+.related {
+  background-color: rgb(227, 227, 227);
+  color: rgb(59, 59, 59);
+  height: 35px;
+  width: 80px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+}
+
+.watched {
+  background-color: rgb(227, 227, 227);
+  color: rgb(59, 59, 59);
+  height: 35px;
+  width: 90px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+}
+
+.related-videos {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  column-gap: 4px;
+  margin-bottom: 5px;
+}
+
+.image-container {
+  margin-right: 8px;
+}
+
+.image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.related-video-info {
+  flex: 1;
+}
+
+.related-video-title {
+  font-size: 14px;
+  color: rgb(15, 15, 15);
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 7px;
+}
+
+.related-video-channel-name, .related-video-channel-stats {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 5px;
+}
